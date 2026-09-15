@@ -1,0 +1,11 @@
+torch
+torchvision
+ultralytics
+opencv-python
+networkx
+neo4j
+numpy
+pandas
+pyyaml
+pytest
+
