@@ -1,0 +1,72 @@
+{
+ "table": [
+  {
+   "src": "gt",
+   "mode": "direct",
+   "simple": 1.0,
+   "count": 0.8097,
+   "connect": 0.7547
+  },
+  {
+   "src": "gt",
+   "mode": "knn",
+   "simple": 1.0,
+   "count": 0.7003,
+   "connect": 0.8425
+  },
+  {
+   "src": "gt",
+   "mode": "net",
+   "simple": 1.0,
+   "count": 0.6981,
+   "connect": 0.9163
+  },
+  {
+   "src": "gt",
+   "mode": "pipe",
+   "simple": 1.0,
+   "count": 0.8812,
+   "connect": 0.9269
+  },
+  {
+   "src": "yolo",
+   "mode": "direct",
+   "simple": 0.9841,
+   "count": 0.8056,
+   "connect": 0.7541,
+   "det_P": 0.9999,
+   "det_R": 0.9956
+  },
+  {
+   "src": "yolo",
+   "mode": "knn",
+   "simple": 0.9841,
+   "count": 0.6947,
+   "connect": 0.8394,
+   "det_P": 0.9999,
+   "det_R": 0.9956
+  },
+  {
+   "src": "yolo",
+   "mode": "net",
+   "simple": 0.9841,
+   "count": 0.6944,
+   "connect": 0.91,
+   "det_P": 0.9999,
+   "det_R": 0.9956
+  },
+  {
+   "src": "yolo",
+   "mode": "pipe",
+   "simple": 0.9841,
+   "count": 0.8766,
+   "connect": 0.9213,
+   "det_P": 0.9999,
+   "det_R": 0.9956
+  }
+ ],
+ "trivial": {
+  "count": 0.5,
+  "connect": 0.5
+ }
+}

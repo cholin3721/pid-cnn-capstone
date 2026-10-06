@@ -2,10 +2,10 @@ torch
 torchvision
 ultralytics
 opencv-python
+shapely
 networkx
 neo4j
 numpy
 pandas
 pyyaml
 pytest
-

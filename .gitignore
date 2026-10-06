@@ -10,3 +10,15 @@ data/processed/*
 artifacts/*
 !artifacts/.gitkeep
 
+# 모델 가중치, 압축 파일
+*.pt
+*.tgz
+*.zip
+
+# 결과는 숫자 파일(json, csv, yaml)만 올린다. 그림은 docs/figures 에 골라서 둔다
+results/**/*.log
+results/**/*.jpg
+results/**/*.png
+results/**/graphml/
+results/**/pred_val_*.json
+pid_tools_v2/local_eval/cache/

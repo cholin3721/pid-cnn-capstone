@@ -1,0 +1,116 @@
+{
+ "DatasetPID": {
+  "n": 500,
+  "labels": {
+   "crossing": 2035,
+   "general": 745,
+   "connector": 4575,
+   "instrumentation": 433,
+   "arrow": 67,
+   "valve": 1123,
+   "background": 80
+  },
+  "size_median": 92.0,
+  "dims": [
+   [
+    7168,
+    4562
+   ],
+   [
+    7168,
+    4562
+   ],
+   [
+    7168,
+    4561
+   ],
+   [
+    7168,
+    4561
+   ],
+   [
+    7168,
+    4562
+   ]
+  ],
+  "nodes_mean": 452.9,
+  "edges_mean": 502.75
+ },
+ "OPEN100": {
+  "n": 12,
+  "labels": {
+   "general": 234,
+   "instrumentation": 350,
+   "arrow": 451,
+   "valve": 257,
+   "background": 48,
+   "tank": 35,
+   "inlet/outlet": 96,
+   "connector": 2408,
+   "crossing": 734,
+   "pump": 16
+  },
+  "size_median": 26.44749999999999,
+  "dims": [
+   [
+    2604,
+    1744
+   ],
+   [
+    2288,
+    1528
+   ],
+   [
+    2792,
+    1860
+   ],
+   [
+    2786,
+    1862
+   ],
+   [
+    2292,
+    1534
+   ]
+  ],
+  "nodes_mean": 385.75,
+  "edges_mean": 380.5833333333333
+ },
+ "Synthetic": {
+  "n": 250,
+  "labels": {
+   "general": 306,
+   "crossing": 1366,
+   "arrow": 2,
+   "valve": 40,
+   "tank": 59,
+   "connector": 784,
+   "pump": 31
+  },
+  "size_median": 161.75,
+  "dims": [
+   [
+    7000,
+    4500
+   ],
+   [
+    7000,
+    4500
+   ],
+   [
+    7000,
+    4500
+   ],
+   [
+    7000,
+    4500
+   ],
+   [
+    7000,
+    4500
+   ]
+  ],
+  "nodes_mean": 129.4,
+  "edges_mean": 131.1
+ }
+}

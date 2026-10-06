@@ -1,0 +1,32 @@
+{
+ "base": {
+  "matched": 11790,
+  "cls_acc": 0.9998,
+  "focus_matched": 1036,
+  "focus_acc": 1.0,
+  "focus_errors": 0,
+  "top_confusions": [
+   {
+    "gt": 27,
+    "pred": 28,
+    "n": 2
+   }
+  ]
+ },
+ "long": {
+  "matched": 11790,
+  "cls_acc": 1.0,
+  "focus_matched": 1036,
+  "focus_acc": 1.0,
+  "focus_errors": 0,
+  "top_confusions": []
+ },
+ "deg": {
+  "matched": 11788,
+  "cls_acc": 1.0,
+  "focus_matched": 1036,
+  "focus_acc": 1.0,
+  "focus_errors": 0,
+  "top_confusions": []
+ }
+}

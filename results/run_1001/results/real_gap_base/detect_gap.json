@@ -1,0 +1,77 @@
+{
+ "train_median": 86.0,
+ "groups": {
+  "OPEN100": {
+   "iou0.5": {
+    "P": 0.8708,
+    "R": 0.5622,
+    "F1": 0.6833
+   },
+   "iou0.3": {
+    "P": 0.9167,
+    "R": 0.5918,
+    "F1": 0.7192
+   },
+   "per_label_recall": {
+    "general": 0.415,
+    "instrumentation": 0.951,
+    "arrow": 0.488,
+    "valve": 0.696,
+    "background": 0.0,
+    "tank": 0.0,
+    "inlet/outlet": 0.01,
+    "pump": 0.375
+   },
+   "per_label_n": {
+    "general": 234,
+    "instrumentation": 350,
+    "arrow": 451,
+    "valve": 257,
+    "background": 48,
+    "tank": 35,
+    "inlet/outlet": 96,
+    "pump": 16
+   },
+   "n_plans": 12
+  },
+  "DatasetPID": {
+   "iou0.5": {
+    "P": 0.9997,
+    "R": 0.9751,
+    "F1": 0.9872
+   },
+   "iou0.3": {
+    "P": 0.9997,
+    "R": 0.9751,
+    "F1": 0.9872
+   },
+   "per_label_recall": {
+    "general": 1.0,
+    "instrumentation": 1.0,
+    "arrow": 1.0,
+    "valve": 1.0,
+    "background": 0.0
+   },
+   "per_label_n": {
+    "general": 1094,
+    "instrumentation": 672,
+    "arrow": 101,
+    "valve": 1651,
+    "background": 90
+   },
+   "n_plans": 30
+  },
+  "HF_val(합성)": {
+   "iou0.5": {
+    "P": 0.9999,
+    "R": 0.9958,
+    "F1": 0.9978
+   },
+   "iou0.3": {
+    "P": 0.9999,
+    "R": 0.9958,
+    "F1": 0.9978
+   }
+  }
+ }
+}
